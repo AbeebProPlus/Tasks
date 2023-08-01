@@ -43,14 +43,14 @@ class SortedLinkedList {
     }
 
     public static void main(String[] args) {
-        SortedLinkedList list = new SortedLinkedList();
+        SortedLinkedList linkedList = new SortedLinkedList();
 
-        list.insertNode(5);
-        list.insertNode(1);
-        list.insertNode(10);
-        list.insertNode(1);
+        linkedList.insertNode(5);
+        linkedList.insertNode(1);
+        linkedList.insertNode(10);
+        linkedList.insertNode(1);
 
-        list.printList();
+        linkedList.printList();
     }
 }
 
